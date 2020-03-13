@@ -15,6 +15,12 @@
         <module>05_ExceptionAndThread</module>
         <module>06_Thread</module>
         <module>07_ThreadAndLambda</module>
+        <module>08_FileAndRecursion</module>
+        <module>09_IOAndProperties</module>
+        <module>10_IO</module>
+        <module>11_Net</module>
+        <module>12_FunctionalInterface</module>
+        <module>13_StreamAndMethodReference</module>
     </modules>
 
     <build>
