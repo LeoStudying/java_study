@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/12_FunctionalInterface/12_FunctionalInterface.iml" filepath="$PROJECT_DIR$/12_FunctionalInterface/12_FunctionalInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_StreamAndMethodReference/13_StreamAndMethodReference.iml" filepath="$PROJECT_DIR$/13_StreamAndMethodReference/13_StreamAndMethodReference.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_study.iml" filepath="$PROJECT_DIR$/.idea/java_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_01_hello_world/springboot_01_hello_world.iml" filepath="$PROJECT_DIR$/springboot_01_hello_world/springboot_01_hello_world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_02_config/springboot_02_config.iml" filepath="$PROJECT_DIR$/springboot_02_config/springboot_02_config.iml" />
     </modules>
   </component>
 </project>

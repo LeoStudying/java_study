@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-04-web-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_01_hello_world" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -10,6 +11,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_01_hello_world/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot_02_config/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -30,6 +33,7 @@
         <option value="$PROJECT_DIR$/spring-boot-07/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-08-starter-test/pom.xml" />
         <option value="$PROJECT_DIR$/spring_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot_01_helloworld_quick/pom.xml" />
       </set>
     </option>
   </component>

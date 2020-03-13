@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01_API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_API/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_CollectionAndReflect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_CollectionAndReflect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_ListAndSet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_ListAndSet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_Map/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_Map/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_ExceptionAndThread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_ExceptionAndThread/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_Thread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_ThreadAndLambda/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08_FileAndRecursion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_IOAndProperties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10_IO/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11_Net/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12_FunctionalInterface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_01_hello_world/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_02_config/src/main/java" charset="UTF-8" />
+  </component>
+</project>
