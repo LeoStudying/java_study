@@ -12,6 +12,9 @@
         <module>02_CollectionAndReflect</module>
         <module>03_ListAndSet</module>
         <module>04_Map</module>
+        <module>05_ExceptionAndThread</module>
+        <module>06_Thread</module>
+        <module>07_ThreadAndLambda</module>
     </modules>
 
     <build>

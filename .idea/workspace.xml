@@ -1,44 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/03_ListAndSet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo01/List/Demo01List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo01/List/Demo02LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo01Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo02HashSetSaveString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo03HashSetSavePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo04LinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo03/hashCode/Demo01HashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo03/hashCode/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo04/VarArgs/Demo01VarArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo01Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo02Sort(1).java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo03Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/04_Map.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo01/Map/Demo01Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo01/Map/Demo02KeySet(2).java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo01/Map/Demo03EntrySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo02/Map/Demo01HashMapSavePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo02/Map/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo03/Map/Demo01LinkedHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo03/Map/Demo02Hashtable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo03/Map/Demo03MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo04/JDK9/Demo01JDK9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo05/Debug/Demo01Debug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo06/Test/DouDiZhu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03【List、Set】-笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03【List、Set】.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04 【Map】-笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04 【Map】.md" afterDir="false" />
+    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo01/List/Demo01List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo01/List/Demo02LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo02/Set/Demo01Set.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo02/Set/Demo02HashSetSaveString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo02/Set/Demo03HashSetSavePerson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo02/Set/Demo04LinkedHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo02/Set/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo03/hashCode/Demo01HashCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo03/hashCode/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo04/VarArgs/Demo01VarArgs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Demo01Collections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Demo02Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Demo03Sort$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Demo03Sort$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Demo03Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/target/classes/com/leo/demo05/Collections/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/05_ExceptionAndThread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo01/Exception/Demo01Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo01/Exception/Demo02Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo01/Exception/Demo03Throw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo01/Exception/Demo04Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo01/Exception/Demo05Throws.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo02/Exception/Demo01TryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo02/Exception/Demo02TryCatchFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo03/Exception/Demo01Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo03/Exception/Demo02Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo03/Exception/Fu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo04/MyException/Demo01RegisterException(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo04/MyException/Demo02RegisterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo04/MyException/RegisterException(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo05/Thread/Demo01MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo05/Thread/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo06/Thread/Demo01Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/main/java/com/leo/demo06/Thread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/06_Thread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo01/getName/Demo01GetThreadName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo01/getName/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo02/setName/Demo01SetThreadName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo02/setName/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo03/sleep/Demo01Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo04/Runnable/Demo01Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo04/Runnable/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo04/Runnable/RunnableImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo05/InnerClassThread/Demo01InnerClassThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo06/ThreadSafe/Demo01Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo06/ThreadSafe/RunnableImpl(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo07/Synchronized/Demo01Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo07/Synchronized/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo08/Synchronized/Demo01Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo08/Synchronized/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo09/Lock/Demo01Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo09/Lock/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo10/WaitAndNotify/Demo01WaitAndNotify(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Thread/src/main/java/com/leo/demo10/WaitAndNotify/Demo02WaitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/07_ThreadAndLambda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo02/ThreadPool/Demo01ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo02/ThreadPool/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo03/Lambda/Demo01Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo03/Lambda/Demo02Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo03/Lambda/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo04/Lambda/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo04/Lambda/Demo01Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo05/Lambda/Demo01Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo05/Lambda/Person(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo06/Lambda/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo06/Lambda/Demo01Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo/demo07/Lambda/Demo01ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05 【异常、线程】-笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05 【异常、线程】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06 【线程、同步】-笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07【等待与唤醒案例、线程池、Lambda表达式】-笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07【等待与唤醒案例、线程池、Lambda表达式】.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo02Sort(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo02Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +139,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07_ThreadAndLambda/src/main/java/com/leo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -104,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\java_study\07_ThreadAndLambda\src\main\java\com\leo" />
       <recent name="D:\Git\java_study" />
+      <recent name="D:\Git\java_study\06_Thread\src\main\java\com\leo" />
+      <recent name="D:\Git\java_study\05_ExceptionAndThread\src\main\java\com\leo" />
       <recent name="D:\Git\java_study\04_Map\src\main\java\com\leo" />
-      <recent name="D:\Git\java_study\03_ListAndSet\src\main\java\com\leo" />
-      <recent name="D:\Git\java_study\02_CollectionAndReflect\src\main\java\com\leo" />
-      <recent name="D:\Git\java_study\01_API\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git\java_study" />
@@ -125,7 +168,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DouDiZhu">
+  <component name="RunManager" selected="Application.Demo01List">
     <configuration name="Demo01Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leo.demo04.Calendar.Demo01Calendar" />
       <module name="01_API" />
@@ -152,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01ToString (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.demo01.Object.Demo01ToString" />
-      <module name="01_API" />
+    <configuration name="Demo01List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo01.List.Demo01List" />
+      <module name="03_ListAndSet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leo.demo01.Object.*" />
+          <option name="PATTERN" value="com.leo.demo01.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,11 +395,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01List" />
         <item itemvalue="Application.DouDiZhu" />
         <item itemvalue="Application.Demo01Collection" />
         <item itemvalue="Application.Demo02Calendar" />
         <item itemvalue="Application.Demo01Calendar" />
-        <item itemvalue="Application.Demo01ToString (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +461,7 @@
       <workItem from="1584063035587" duration="5089000" />
       <workItem from="1584083079588" duration="131000" />
       <workItem from="1584083377791" duration="1748000" />
-      <workItem from="1584085918028" duration="2146000" />
+      <workItem from="1584085918028" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1583756988614</created>
@@ -434,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584087380655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1584088103738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584088103738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,9 +508,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <MESSAGE value="third commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="18" key="#Demo01ToString" timestamp="1584071021952">
@@ -487,10 +537,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584083200914" />
-    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584088057940">
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584088652542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584088057940" />
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584088652542" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1584085176453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -499,38 +549,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584087805478" />
-    <state width="1320" height="113" key="GridCell.Tab.0.bottom" timestamp="1584087442435">
+    <state width="1320" height="265" key="GridCell.Tab.0.bottom" timestamp="1584088273326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584087442435" />
-    <state width="1320" height="113" key="GridCell.Tab.0.center" timestamp="1584087442434">
+    <state width="1320" height="265" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584088273326" />
+    <state width="1320" height="265" key="GridCell.Tab.0.center" timestamp="1584088273326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584087442434" />
-    <state width="1320" height="113" key="GridCell.Tab.0.left" timestamp="1584087442434">
+    <state width="1320" height="265" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584088273326" />
+    <state width="1320" height="265" key="GridCell.Tab.0.left" timestamp="1584088273325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584087442434" />
-    <state width="1320" height="113" key="GridCell.Tab.0.right" timestamp="1584087442434">
+    <state width="1320" height="265" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584088273325" />
+    <state width="1320" height="265" key="GridCell.Tab.0.right" timestamp="1584088273326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584087442434" />
-    <state width="903" height="166" key="GridCell.Tab.1.bottom" timestamp="1583739407176">
+    <state width="1320" height="265" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584088273326" />
+    <state width="1320" height="265" key="GridCell.Tab.1.bottom" timestamp="1584088273328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="903" height="166" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583739407176" />
-    <state width="903" height="166" key="GridCell.Tab.1.center" timestamp="1583739407175">
+    <state width="1320" height="265" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584088273328" />
+    <state width="1320" height="265" key="GridCell.Tab.1.center" timestamp="1584088273327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="903" height="166" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583739407175" />
-    <state width="903" height="166" key="GridCell.Tab.1.left" timestamp="1583739407174">
+    <state width="1320" height="265" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584088273327" />
+    <state width="1320" height="265" key="GridCell.Tab.1.left" timestamp="1584088273327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="903" height="166" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583739407174" />
-    <state width="903" height="166" key="GridCell.Tab.1.right" timestamp="1583739407176">
+    <state width="1320" height="265" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584088273327" />
+    <state width="1320" height="265" key="GridCell.Tab.1.right" timestamp="1584088273327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="903" height="166" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583739407176" />
+    <state width="1320" height="265" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584088273327" />
     <state x="212" y="17" key="Maven.ArtifactSearchDialog" timestamp="1582269722080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -551,10 +601,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="94" width="582" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1582867345795" />
-    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1584087389708">
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1584088123938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584087389708" />
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584088123938" />
     <state x="481" y="139" key="chooseDestDirectoryDialog" timestamp="1584082545467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -575,10 +625,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="377" y="153" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584086868596" />
-    <state x="52" y="0" key="new project wizard" timestamp="1584087961828">
+    <state x="52" y="0" key="new project wizard" timestamp="1584088578980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="52" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584087961828" />
+    <state x="52" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584088578980" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584020024163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -592,7 +642,17 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo01/List/Demo01List.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="list.get(1)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
