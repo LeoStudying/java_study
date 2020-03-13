@@ -1,69 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="third commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/01_API.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/01_StringBuilder的原理.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/02_包装类的概念.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Demo01ToString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Demo02Equals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Demo03Objects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo02/Date/Demo01Date.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo02/Date/Demo02Date.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo03/DateFormat/Demo01DateFormat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo03/DateFormat/Demo02Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo04/Calendar/Demo01Calendar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo04/Calendar/Demo02Calendar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo05/System/Demo01System.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo06StringBuilder/Demo01StringBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo06StringBuilder/Demo02StringBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo06StringBuilder/Demo03StringBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo07Integer/Demo01Integer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo07Integer/Demo02Ineger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo07Integer/Demo03Integer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/02_CollectionAndReflect.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo01/Collection/Demo01Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo02/Iterator/Demo01Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo02/Iterator/Demo02Foreach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo01Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo02GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo03GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo04GenericInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo05Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo06Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericInterfaceImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericInterfaceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo04/Test/DouDiZhu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo01/Collection/Demo01Collection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo02/Iterator/Demo01Iterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo02/Iterator/Demo02Foreach.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo01Generic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo02GenericClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo03GenericMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo04GenericInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo05Generic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo06Generic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericInterfaceImpl1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericInterfaceImpl2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo04/Test/DouDiZhu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02【Collection、泛型】-笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_API/day01【Object类、常用API】-笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/day01【Object类、常用API】-笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboardShortcut.md" beforeDir="false" afterPath="$PROJECT_DIR$/keyboardShortcut.md" afterDir="false" />
+    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/03_ListAndSet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo01/List/Demo01List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo01/List/Demo02LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo01Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo02HashSetSaveString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo03HashSetSavePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Demo04LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo02/Set/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo03/hashCode/Demo01HashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo03/hashCode/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo04/VarArgs/Demo01VarArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo01Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo02Sort(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Demo03Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_ListAndSet/src/main/java/com/leo/demo05/Collections/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/04_Map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo01/Map/Demo01Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo01/Map/Demo02KeySet(2).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo01/Map/Demo03EntrySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo02/Map/Demo01HashMapSavePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo02/Map/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo03/Map/Demo01LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo03/Map/Demo02Hashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo03/Map/Demo03MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo04/JDK9/Demo01JDK9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo05/Debug/Demo01Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Map/src/main/java/com/leo/demo06/Test/DouDiZhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03【List、Set】-笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03【List、Set】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04 【Map】-笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04 【Map】.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,10 +105,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Git\java_study" />
+      <recent name="D:\Git\java_study\04_Map\src\main\java\com\leo" />
+      <recent name="D:\Git\java_study\03_ListAndSet\src\main\java\com\leo" />
       <recent name="D:\Git\java_study\02_CollectionAndReflect\src\main\java\com\leo" />
       <recent name="D:\Git\java_study\01_API\src\main\resources" />
-      <recent name="D:\Git\java_study\01_API" />
-      <recent name="D:\Git\java_study\01_API\src\main\java\com\leo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git\java_study" />
@@ -150,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01Collection">
+  <component name="RunManager" selected="Application.DouDiZhu">
     <configuration name="Demo01Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leo.demo04.Calendar.Demo01Calendar" />
       <module name="01_API" />
@@ -203,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.demo01.Object.Demo02Equals" />
-      <module name="01_API" />
+    <configuration name="DouDiZhu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo04.Test.DouDiZhu" />
+      <module name="02_CollectionAndReflect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leo.demo01.Object.*" />
+          <option name="PATTERN" value="com.leo.demo04.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DouDiZhu" />
         <item itemvalue="Application.Demo01Collection" />
         <item itemvalue="Application.Demo02Calendar" />
         <item itemvalue="Application.Demo01Calendar" />
         <item itemvalue="Application.Demo01ToString (1)" />
-        <item itemvalue="Application.Demo02Equals" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +418,7 @@
       <workItem from="1584063035587" duration="5089000" />
       <workItem from="1584083079588" duration="131000" />
       <workItem from="1584083377791" duration="1748000" />
-      <workItem from="1584085918028" duration="1287000" />
+      <workItem from="1584085918028" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1583756988614</created>
@@ -452,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583756988614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1584087380654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584087380655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,10 +454,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="18" key="#Demo01ToString" timestamp="1584071021952">
@@ -502,34 +487,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584083200914" />
-    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584086963216">
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584088057940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584086963216" />
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584088057940" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1584085176453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085176453" />
-    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1584080744648">
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1584087805478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584080744648" />
-    <state width="1320" height="113" key="GridCell.Tab.0.bottom" timestamp="1584087087374">
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584087805478" />
+    <state width="1320" height="113" key="GridCell.Tab.0.bottom" timestamp="1584087442435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584087087374" />
-    <state width="1320" height="113" key="GridCell.Tab.0.center" timestamp="1584087087373">
+    <state width="1320" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584087442435" />
+    <state width="1320" height="113" key="GridCell.Tab.0.center" timestamp="1584087442434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584087087373" />
-    <state width="1320" height="113" key="GridCell.Tab.0.left" timestamp="1584087087373">
+    <state width="1320" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584087442434" />
+    <state width="1320" height="113" key="GridCell.Tab.0.left" timestamp="1584087442434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584087087373" />
-    <state width="1320" height="113" key="GridCell.Tab.0.right" timestamp="1584087087373">
+    <state width="1320" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584087442434" />
+    <state width="1320" height="113" key="GridCell.Tab.0.right" timestamp="1584087442434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584087087373" />
+    <state width="1320" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584087442434" />
     <state width="903" height="166" key="GridCell.Tab.1.bottom" timestamp="1583739407176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -566,10 +551,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="94" width="582" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1582867345795" />
-    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1583756994724">
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1584087389708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583756994724" />
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584087389708" />
     <state x="481" y="139" key="chooseDestDirectoryDialog" timestamp="1584082545467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -590,10 +575,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="377" y="153" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584086868596" />
-    <state x="52" y="0" key="new project wizard" timestamp="1584086385235">
+    <state x="52" y="0" key="new project wizard" timestamp="1584087961828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="52" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584086385235" />
+    <state x="52" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584087961828" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584020024163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
