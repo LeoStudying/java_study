@@ -1,5 +1,6 @@
 package com.leo.demo03.Exception;
 
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -71,7 +72,8 @@ public class Demo01Exception {
         //默认给虚拟机处理,终止程序,什么时候不抛出运行时异常了,在来继续执行程序
         int[] arr = {1,2,3};
         System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
-        List<Integer> list = List.of(1, 2, 3);
+//        List<Integer> list = List.of(1,2,3);
+        List<Integer> list = Arrays.asList(1,2,3);
         System.out.println(list.get(3));//IndexOutOfBoundsException: Index 3 out-of-bounds for length 3
 
         System.out.println("后续代码!");

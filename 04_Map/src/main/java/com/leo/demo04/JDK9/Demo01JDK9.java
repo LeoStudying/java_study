@@ -17,18 +17,19 @@ import java.util.Set;
  */
 public class Demo01JDK9 {
     public static void main(String[] args) {
-        List<String> list = List.of("a", "b", "a", "c", "d");
-        System.out.println(list);//[a, b, a, c, d]
+//        List<String> list = List.of("a", "b", "a", "c", "d");
+//        List<String> list = List.of("a", "b", "a", "c", "d");
+//        System.out.println(list);//[a, b, a, c, d]
         //list.add("w");//UnsupportedOperationException:不支持操作异常
 
         //Set<String> set = Set.of("a", "b", "a", "c", "d");//IllegalArgumentException:非法参数异常,有重复的元素
-        Set<String> set = Set.of("a", "b", "c", "d");
-        System.out.println(set);
+//        Set<String> set = Set.of("a", "b", "c", "d");
+//        System.out.println(set);
         //set.add("w");//UnsupportedOperationException:不支持操作异常
 
         //Map<String, Integer> map = Map.of("张三", 18, "李四", 19, "王五", 20,"张三",19);////IllegalArgumentException:非法参数异常,有重复的元素
-        Map<String, Integer> map = Map.of("张三", 18, "李四", 19, "王五", 20);
-        System.out.println(map);//{王五=20, 李四=19, 张三=18}
+//        Map<String, Integer> map = Map.of("张三", 18, "李四", 19, "王五", 20);
+//        System.out.println(map);//{王五=20, 李四=19, 张三=18}
         //map.put("赵四",30);//UnsupportedOperationException:不支持操作异常
     }
 }
