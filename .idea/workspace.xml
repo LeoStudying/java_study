@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/java_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/01_API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/01_StringBuilder的原理.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/02_包装类的概念.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Demo01ToString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Demo02Equals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Demo03Objects.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo01/Object/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo02/Date/Demo01Date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo02/Date/Demo02Date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo03/DateFormat/Demo01DateFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo03/DateFormat/Demo02Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo04/Calendar/Demo01Calendar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo04/Calendar/Demo02Calendar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo05/System/Demo01System.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo06StringBuilder/Demo01StringBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo06StringBuilder/Demo02StringBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo06StringBuilder/Demo03StringBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo07Integer/Demo01Integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo07Integer/Demo02Ineger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_API/target/classes/com/leo/demo07Integer/Demo03Integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/02_CollectionAndReflect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo01/Collection/Demo01Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo02/Iterator/Demo01Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo02/Iterator/Demo02Foreach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo01Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo02GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo03GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo04GenericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo05Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/Demo06Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericInterfaceImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericInterfaceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo03/Generic/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/src/main/java/com/leo/demo04/Test/DouDiZhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo01/Collection/Demo01Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo02/Iterator/Demo01Iterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo02/Iterator/Demo02Foreach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo01Generic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo02GenericClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo03GenericMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo04GenericInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo05Generic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/Demo06Generic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericInterfaceImpl1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericInterfaceImpl2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo03/Generic/GenericMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_CollectionAndReflect/target/classes/com/leo/demo04/Test/DouDiZhu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02【Collection、泛型】-笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_API/day01【Object类、常用API】-笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/day01【Object类、常用API】-笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboardShortcut.md" beforeDir="false" afterPath="$PROJECT_DIR$/keyboardShortcut.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\mavenRespository" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.5.2-bin" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.5.2-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y6ci8KwnKbVJ7cikYxdNpnyCqU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\java_study" />
+      <recent name="D:\Git\java_study\02_CollectionAndReflect\src\main\java\com\leo" />
+      <recent name="D:\Git\java_study\01_API\src\main\resources" />
+      <recent name="D:\Git\java_study\01_API" />
+      <recent name="D:\Git\java_study\01_API\src\main\java\com\leo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\java_study" />
+      <recent name="D:\Git\java_study\02_CollectionAndReflect" />
+      <recent name="D:\Git\java_study\03_ListAndSet" />
+      <recent name="D:\Git\java_study\03_ListAndSet\src" />
+      <recent name="D:\Git\java_study\.idea" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Demo01Collection">
+    <configuration name="Demo01Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo04.Calendar.Demo01Calendar" />
+      <module name="01_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.demo04.Calendar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01Collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo01.Collection.Demo01Collection" />
+      <module name="02_CollectionAndReflect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.demo01.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01ToString (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo01.Object.Demo01ToString" />
+      <module name="01_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.demo01.Object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo04.Calendar.Demo02Calendar" />
+      <module name="01_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.demo04.Calendar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.demo01.Object.Demo02Equals" />
+      <module name="01_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.demo01.Object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="functional_interface" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="functional_interface" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GirlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="girl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.GirlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.HelloWorldMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConcurrentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java_study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leo.study.JavaConcurrentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java_study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leo.study.JavaStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot01HelloworldQuickApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-helloworld-quick" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot01HelloworldQuickApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot02Config02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-02-config-02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot02config02.SpringBoot02Config02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-02-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot02ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot02ConfigAutoconfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-02-config-autoconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot02ConfigAutoconfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot03LoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-03-logging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot03LoggingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot04WebJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-web-jsp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot04WebJspApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot04WebRestfulcrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-web-restfulcrud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot04WebRestfulcrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06DataJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-data-jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot06DataJdbcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06DataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-data-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot06DataJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06DataMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-data-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot06DataMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot07Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-07" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot07Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot08StarterTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-08-starter-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.SpringBoot08StarterTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo01Collection" />
+        <item itemvalue="Application.Demo02Calendar" />
+        <item itemvalue="Application.Demo01Calendar" />
+        <item itemvalue="Application.Demo01ToString (1)" />
+        <item itemvalue="Application.Demo02Equals" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="" />
+      <created>1582266608712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582266608712</updated>
+      <workItem from="1582266614843" duration="5676000" />
+      <workItem from="1582272357935" duration="10210000" />
+      <workItem from="1582348365966" duration="3654000" />
+      <workItem from="1582376485422" duration="1400000" />
+      <workItem from="1582419045172" duration="615000" />
+      <workItem from="1582513618036" duration="4355000" />
+      <workItem from="1582549872028" duration="279000" />
+      <workItem from="1582595272622" duration="1611000" />
+      <workItem from="1582781686436" duration="16365000" />
+      <workItem from="1582853423207" duration="9669000" />
+      <workItem from="1583045535505" duration="1209000" />
+      <workItem from="1583130606989" duration="1119000" />
+      <workItem from="1583286241538" duration="695000" />
+      <workItem from="1583411751222" duration="2844000" />
+      <workItem from="1583581882341" duration="4344000" />
+      <workItem from="1583586693935" duration="629000" />
+      <workItem from="1583587789269" duration="5951000" />
+      <workItem from="1583732282350" duration="5951000" />
+      <workItem from="1583739666598" duration="7311000" />
+      <workItem from="1583816034783" duration="3638000" />
+      <workItem from="1583822397970" duration="125000" />
+      <workItem from="1583822567157" duration="950000" />
+      <workItem from="1583823674325" duration="1992000" />
+      <workItem from="1583827611969" duration="1102000" />
+      <workItem from="1583831942140" duration="286000" />
+      <workItem from="1583847332149" duration="287000" />
+      <workItem from="1583893914837" duration="815000" />
+      <workItem from="1583988198711" duration="8315000" />
+      <workItem from="1584063035587" duration="5089000" />
+      <workItem from="1584083079588" duration="131000" />
+      <workItem from="1584083377791" duration="1748000" />
+      <workItem from="1584085918028" duration="1287000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1583756988614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583756988614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="375" y="18" key="#Demo01ToString" timestamp="1584071021952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="18" key="#Demo01ToString/0.0.1366.728@0.0.1366.728" timestamp="1584071021952" />
+    <state x="6" y="20" width="1353" height="687" key="#Project_Structure" timestamp="1584081149612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="6" y="20" width="1353" height="687" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584081149612" />
+    <state x="396" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583586218875">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="396" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583586218875" />
+    <state x="487" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1583733458719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="487" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583733458719" />
+    <state x="528" y="251" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583832156087">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="528" y="251" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1583832156087" />
+    <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584083200914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584083200914" />
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584086963216">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584086963216" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1584085176453">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085176453" />
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1584080744648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584080744648" />
+    <state width="1320" height="113" key="GridCell.Tab.0.bottom" timestamp="1584087087374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584087087374" />
+    <state width="1320" height="113" key="GridCell.Tab.0.center" timestamp="1584087087373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584087087373" />
+    <state width="1320" height="113" key="GridCell.Tab.0.left" timestamp="1584087087373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584087087373" />
+    <state width="1320" height="113" key="GridCell.Tab.0.right" timestamp="1584087087373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584087087373" />
+    <state width="903" height="166" key="GridCell.Tab.1.bottom" timestamp="1583739407176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="903" height="166" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583739407176" />
+    <state width="903" height="166" key="GridCell.Tab.1.center" timestamp="1583739407175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="903" height="166" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583739407175" />
+    <state width="903" height="166" key="GridCell.Tab.1.left" timestamp="1583739407174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="903" height="166" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583739407174" />
+    <state width="903" height="166" key="GridCell.Tab.1.right" timestamp="1583739407176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="903" height="166" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583739407176" />
+    <state x="212" y="17" key="Maven.ArtifactSearchDialog" timestamp="1582269722080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="212" y="17" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582269722080" />
+    <state x="322" y="59" key="NewModule_or_Project.wizard" timestamp="1583741158766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="59" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1583741158766" />
+    <state x="423" y="72" key="RollbackChangesDialog" timestamp="1584085032904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="423" y="72" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085032904" />
+    <state x="-4" y="0" width="1267" height="728" key="SettingsEditor" timestamp="1584086597546">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-4" y="0" width="1267" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584086597546" />
+    <state x="404" y="94" width="582" height="524" key="StructurePopup" timestamp="1582867345795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="94" width="582" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1582867345795" />
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1583756994724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583756994724" />
+    <state x="481" y="139" key="chooseDestDirectoryDialog" timestamp="1584082545467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="481" y="139" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1584082545467" />
+    <state x="362" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584085988997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="362" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085988997" />
+    <state x="380" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583741475622">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1583741475622" />
+    <state x="474" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584086237885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584086237885" />
+    <state x="377" y="153" key="git4idea.merge.GitPullDialog" timestamp="1584086868596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="377" y="153" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584086868596" />
+    <state x="52" y="0" key="new project wizard" timestamp="1584086385235">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="52" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584086385235" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584020024163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584020024163" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-01-helloworld/src/main/java/com/atguigu/HelloWorldMainApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
