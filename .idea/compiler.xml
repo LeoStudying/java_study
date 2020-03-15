@@ -14,8 +14,10 @@
         <module name="10_IO" />
         <module name="02_CollectionAndReflect" />
         <module name="13_StreamAndMethodReference" />
-        <module name="springboot_06_data_mybatis" />
         <module name="08_FileAndRecursion" />
+        <module name="spring_annotation" />
+        <module name="14_spring_annotation" />
+        <module name="springmvc_annotation" />
         <module name="11_Net" />
         <module name="06_Thread" />
         <module name="12_FunctionalInterface" />
@@ -25,6 +27,7 @@
         <module name="03_ListAndSet" />
         <module name="04_Map" />
         <module name="springboot_04_web_jsp" />
+        <module name="springboot_06_data_mybatis" />
         <module name="01_API" />
         <module name="springboot_04_web_restfulcrud" />
         <module name="spring_boot_01_helloworld_quick" />
@@ -46,6 +49,7 @@
       <module name="11_Net" target="1.8" />
       <module name="12_FunctionalInterface" target="1.8" />
       <module name="13_StreamAndMethodReference" target="1.8" />
+      <module name="14_spring_annotation" target="1.8" />
       <module name="design_pattern" target="1.5" />
       <module name="girl" target="1.8" />
       <module name="java_study" target="1.8" />
@@ -63,6 +67,7 @@
       <module name="spring-boot-06-data-mybatis" target="1.8" />
       <module name="spring-boot-07" target="1.8" />
       <module name="spring-boot-08-starter-test" target="1.8" />
+      <module name="spring_annotation" target="1.8" />
       <module name="spring_boot_01_helloworld" target="1.8" />
       <module name="spring_boot_01_helloworld_quick" target="1.8" />
       <module name="springboot_01_hello_world" target="1.8" />
@@ -77,10 +82,12 @@
       <module name="springboot_06_data_jpa" target="1.8" />
       <module name="springboot_06_data_mybatis" target="1.8" />
       <module name="springboot_07" target="1.8" />
+      <module name="springmvc_annotation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_annotation" options="" />
       <module name="spring_boot_01_helloworld" options="-parameters" />
       <module name="springboot_01_hello_world" options="" />
       <module name="springboot_02_auto_config" options="" />

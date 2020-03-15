@@ -19,6 +19,36 @@
     <file url="file://$PROJECT_DIR$/11_Net/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/12_FunctionalInterface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/aop/LogAspects.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/bean/Boss.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/bean/ColorFactoryBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/bean/Dog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/bean/MyBeanPostProcessor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/bean/Person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/bean/Red.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/condition/LinuxCondition.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/condition/MyImportBeanDefinitionRegistrar.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/condition/MyImportSelector.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/condition/WindowsCondition.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MainConfig.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MainConfig2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MainConfigOfAOP.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MainConfigOfLifeCycle.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MainConfigOfPropertyValues.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MainConifgOfAutowired.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/config/MyTypeFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/dao/BookDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/ext/ExtConfig.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/ext/MyApplicationListener.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/ext/MyBeanDefinitionRegistryPostProcessor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/ext/MyBeanFactoryPostProcessor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/main/java/com/atguigu/ext/UserService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/test/java/com/atguigu/test/IOCTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/test/java/com/atguigu/test/IOCTest_AOP.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/test/java/com/atguigu/test/IOCTest_Ext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/test/java/com/atguigu/test/IOCTest_LifeCycle.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_spring_annotation/src/test/java/com/atguigu/test/IOCTest_Profile.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springboot_01_hello_world/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_02_config_01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_02_config_02/src/main/java" charset="UTF-8" />
