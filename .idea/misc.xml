@@ -30,6 +30,7 @@
       <set>
         <option value="$PROJECT_DIR$/13_StreamAndMethodReference/pom.xml" />
         <option value="$PROJECT_DIR$/Springboot1.0/pom.xml" />
+        <option value="$PROJECT_DIR$/design/pom.xml" />
         <option value="$PROJECT_DIR$/design_pattern/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-01-helloworld-quick/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-01-helloworld/pom.xml" />

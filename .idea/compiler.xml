@@ -6,36 +6,40 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_02_config_02" />
-        <module name="springboot_02_config_01" />
-        <module name="springboot_06_data_jpa" />
-        <module name="07_ThreadAndLambda" />
-        <module name="springboot_06_data_jdbc" />
         <module name="10_IO" />
-        <module name="02_CollectionAndReflect" />
         <module name="13_StreamAndMethodReference" />
-        <module name="08_FileAndRecursion" />
+        <module name="design_pattern" />
         <module name="spring_annotation" />
-        <module name="14_spring_annotation" />
-        <module name="springmvc_annotation" />
         <module name="11_Net" />
-        <module name="06_Thread" />
-        <module name="12_FunctionalInterface" />
-        <module name="09_IOAndProperties" />
         <module name="springboot_03_logging" />
-        <module name="springboot_01_hello_world" />
         <module name="03_ListAndSet" />
-        <module name="04_Map" />
-        <module name="springboot_04_web_jsp" />
+        <module name="02_CollectionAndReflect" />
+        <module name="springboot_01_hello_world" />
         <module name="springboot_06_data_mybatis" />
         <module name="01_API" />
-        <module name="springboot_04_web_restfulcrud" />
+        <module name="springboot_06_data_jdbc" />
         <module name="spring_boot_01_helloworld_quick" />
+        <module name="15_springmvc_annotation" />
+        <module name="17_concurrent" />
+        <module name="springboot_04_web_restfulcrud" />
+        <module name="springboot_06_data_jpa" />
+        <module name="06_Thread" />
+        <module name="12_FunctionalInterface" />
+        <module name="08_FileAndRecursion" />
+        <module name="16_design_pattern" />
         <module name="05_ExceptionAndThread" />
+        <module name="07_ThreadAndLambda" />
+        <module name="09_IOAndProperties" />
+        <module name="04_Map" />
+        <module name="14_spring_annotation" />
+        <module name="springboot_04_web_jsp" />
+        <module name="springmvc_annotation" />
         <module name="springboot_07" />
+        <module name="springboot_02_config_02" />
+        <module name="springboot_02_config_01" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="01_API" target="1.8" />
       <module name="02_CollectionAndReflect" target="1.8" />
       <module name="03_ListAndSet" target="1.8" />
@@ -50,29 +54,12 @@
       <module name="12_FunctionalInterface" target="1.8" />
       <module name="13_StreamAndMethodReference" target="1.8" />
       <module name="14_spring_annotation" target="1.8" />
-      <module name="design_pattern" target="1.5" />
-      <module name="girl" target="1.8" />
+      <module name="15_springmvc_annotation" target="1.8" />
+      <module name="16_design_pattern" target="1.8" />
+      <module name="17_concurrent" target="1.8" />
+      <module name="design_pattern" target="1.8" />
       <module name="java_study" target="1.8" />
-      <module name="spring-annotation" target="6" />
-      <module name="spring-boot-01-helloworld" target="1.8" />
-      <module name="spring-boot-01-helloworld-quick" target="1.8" />
-      <module name="spring-boot-02-config" target="1.8" />
-      <module name="spring-boot-02-config-02" target="1.8" />
-      <module name="spring-boot-02-config-autoconfig" target="1.8" />
-      <module name="spring-boot-03-logging" target="1.8" />
-      <module name="spring-boot-04-web-jsp" target="1.8" />
-      <module name="spring-boot-04-web-restfulcrud" target="1.8" />
-      <module name="spring-boot-06-data-jdbc" target="1.8" />
-      <module name="spring-boot-06-data-jpa" target="1.8" />
-      <module name="spring-boot-06-data-mybatis" target="1.8" />
-      <module name="spring-boot-07" target="1.8" />
-      <module name="spring-boot-08-starter-test" target="1.8" />
-      <module name="spring_annotation" target="1.8" />
-      <module name="spring_boot_01_helloworld" target="1.8" />
-      <module name="spring_boot_01_helloworld_quick" target="1.8" />
       <module name="springboot_01_hello_world" target="1.8" />
-      <module name="springboot_02_auto_config" target="1.8" />
-      <module name="springboot_02_config" target="1.8" />
       <module name="springboot_02_config_01" target="1.8" />
       <module name="springboot_02_config_02" target="1.8" />
       <module name="springboot_03_logging" target="1.8" />
@@ -82,16 +69,31 @@
       <module name="springboot_06_data_jpa" target="1.8" />
       <module name="springboot_06_data_mybatis" target="1.8" />
       <module name="springboot_07" target="1.8" />
-      <module name="springmvc_annotation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring_annotation" options="" />
-      <module name="spring_boot_01_helloworld" options="-parameters" />
+      <module name="01_API" options="" />
+      <module name="02_CollectionAndReflect" options="" />
+      <module name="03_ListAndSet" options="" />
+      <module name="04_Map" options="" />
+      <module name="05_ExceptionAndThread" options="" />
+      <module name="06_Thread" options="" />
+      <module name="07_ThreadAndLambda" options="" />
+      <module name="08_FileAndRecursion" options="" />
+      <module name="09_IOAndProperties" options="" />
+      <module name="10_IO" options="" />
+      <module name="11_Net" options="" />
+      <module name="12_FunctionalInterface" options="" />
+      <module name="13_StreamAndMethodReference" options="" />
+      <module name="14_spring_annotation" options="" />
+      <module name="15_springmvc_annotation" options="" />
+      <module name="16_design_pattern" options="" />
+      <module name="17_concurrent" options="" />
+      <module name="design_pattern" options="" />
+      <module name="java_study" options="" />
       <module name="springboot_01_hello_world" options="" />
-      <module name="springboot_02_auto_config" options="" />
-      <module name="springboot_02_config" options="" />
       <module name="springboot_02_config_01" options="" />
       <module name="springboot_02_config_02" options="" />
       <module name="springboot_03_logging" options="" />

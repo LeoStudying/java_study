@@ -32,6 +32,10 @@
         <module>springboot_06_data_mybatis</module>
         <module>springboot_07</module>
         <module>14_spring_annotation</module>
+        <module>15_springmvc_annotation</module>
+        <module>design</module>
+        <module>16_design_pattern</module>
+        <module>17_concurrent</module>
     </modules>
 
     <properties>

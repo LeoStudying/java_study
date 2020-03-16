@@ -18,7 +18,7 @@ import com.atguigu.bean.Person;
 /*						@Filter(type=FilterType.ANNOTATION,classes={Controller.class}),
 						@Filter(type=FilterType.ASSIGNABLE_TYPE,classes={BookService.class}),*/
 						@Filter(type=FilterType.CUSTOM,classes={MyTypeFilter.class})
-				},useDefaultFilters = false)	
+				},useDefaultFilters = false)
 		}
 		)
 //@ComponentScan  value:指定要扫描的包
@@ -26,9 +26,10 @@ import com.atguigu.bean.Person;
 //includeFilters = Filter[] ：指定扫描的时候只需要包含哪些组件
 //FilterType.ANNOTATION：按照注解
 //FilterType.ASSIGNABLE_TYPE：按照给定的类型；
-//FilterType.ASPECTJ：使用ASPECTJ表达式
-//FilterType.REGEX：使用正则指定
+//FilterType.ASPECTJ：使用ASPECTJ表达式，不太常用
+//FilterType.REGEX：使用正则指定， 不太常用
 //FilterType.CUSTOM：使用自定义规则
+//useDefaultFilters 默认为true,按照自己的规则来扫描
 public class MainConfig {
 	
 	//给容器中注册一个Bean;类型为返回值的类型，id默认是用方法名作为id

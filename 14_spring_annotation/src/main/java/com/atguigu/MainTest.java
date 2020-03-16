@@ -19,10 +19,10 @@ public class MainTest {
 		Person bean = applicationContext.getBean(Person.class);
 		System.out.println(bean);
 		
-		String[] namesForType = applicationContext.getBeanNamesForType(Person.class);
-		for (String name : namesForType) {
-			System.out.println(name);
-		}
+//		String[] namesForType = applicationContext.getBeanNamesForType(Person.class);
+//		for (String name : namesForType) {
+//			System.out.println(name);
+//		}
 	
 	}
 
