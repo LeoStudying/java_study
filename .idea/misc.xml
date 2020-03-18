@@ -28,7 +28,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/01_html_css/pom.xml" />
         <option value="$PROJECT_DIR$/13_StreamAndMethodReference/pom.xml" />
+        <option value="$PROJECT_DIR$/20_xml/pom.xml" />
         <option value="$PROJECT_DIR$/Springboot1.0/pom.xml" />
         <option value="$PROJECT_DIR$/design/pom.xml" />
         <option value="$PROJECT_DIR$/design_pattern/pom.xml" />
@@ -52,5 +54,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>

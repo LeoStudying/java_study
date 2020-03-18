@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -57,6 +58,8 @@
       <module name="15_springmvc_annotation" target="1.8" />
       <module name="16_design_pattern" target="1.8" />
       <module name="17_concurrent" target="1.8" />
+      <module name="18_html_css" target="1.8" />
+      <module name="20_xml" target="1.8" />
       <module name="design_pattern" target="1.8" />
       <module name="java_study" target="1.8" />
       <module name="springboot_01_hello_world" target="1.8" />
@@ -91,6 +94,8 @@
       <module name="15_springmvc_annotation" options="" />
       <module name="16_design_pattern" options="" />
       <module name="17_concurrent" options="" />
+      <module name="18_html_css" options="" />
+      <module name="20_xml" options="" />
       <module name="design_pattern" options="" />
       <module name="java_study" options="" />
       <module name="springboot_01_hello_world" options="" />

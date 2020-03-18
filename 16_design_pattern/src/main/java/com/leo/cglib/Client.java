@@ -2,6 +2,7 @@ package com.leo.cglib;
 
 
 import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
@@ -62,6 +63,7 @@ public class  Client {
                 return returnValue;
             }
         });
+
         cglibProducer.saleProduct(12000f);
     }
 }
