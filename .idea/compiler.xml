@@ -18,6 +18,7 @@
         <module name="springboot_01_hello_world" />
         <module name="springboot_06_data_mybatis" />
         <module name="01_API" />
+        <module name="20_book_1" />
         <module name="springboot_06_data_jdbc" />
         <module name="spring_boot_01_helloworld_quick" />
         <module name="15_springmvc_annotation" />
@@ -25,10 +26,11 @@
         <module name="springboot_04_web_restfulcrud" />
         <module name="springboot_06_data_jpa" />
         <module name="06_Thread" />
+        <module name="springboot_02_config_01" />
+        <module name="20_book" />
         <module name="12_FunctionalInterface" />
         <module name="08_FileAndRecursion" />
         <module name="16_design_pattern" />
-        <module name="05_ExceptionAndThread" />
         <module name="07_ThreadAndLambda" />
         <module name="09_IOAndProperties" />
         <module name="04_Map" />
@@ -37,7 +39,7 @@
         <module name="springmvc_annotation" />
         <module name="springboot_07" />
         <module name="springboot_02_config_02" />
-        <module name="springboot_02_config_01" />
+        <module name="05_ExceptionAndThread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -59,6 +61,8 @@
       <module name="16_design_pattern" target="1.8" />
       <module name="17_concurrent" target="1.8" />
       <module name="18_html_css" target="1.8" />
+      <module name="20_book" target="1.8" />
+      <module name="20_book_1" target="1.5" />
       <module name="20_xml" target="1.8" />
       <module name="design_pattern" target="1.8" />
       <module name="java_study" target="1.8" />
@@ -95,6 +99,8 @@
       <module name="16_design_pattern" options="" />
       <module name="17_concurrent" options="" />
       <module name="18_html_css" options="" />
+      <module name="20_book" options="" />
+      <module name="20_book_1" options="" />
       <module name="20_xml" options="" />
       <module name="design_pattern" options="" />
       <module name="java_study" options="" />

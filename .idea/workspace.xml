@@ -1,454 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="add design pattern and concurrent project">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/20_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/21_servlet_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/21_servlet_war_exploded2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/cglib/Client$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/cglib/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/cglib/Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/proxy/Client$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/proxy/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/proxy/IProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_design_pattern/target/classes/com/leo/proxy/Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/JUC多线程及高并发.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/JVM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/JVM面试.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/cas/ABADemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/cas/AtomicRefrenceDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/cas/CASDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/cas/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/collection/ContainerNotSafeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/collection/HashSetTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/collection/MapSafe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/conditionThread/CountDownLatchDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/conditionThread/CountryEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/conditionThread/CyclicBarrierDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/conditionThread/SemaphoreDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/Mobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/MyCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/ReadWriteLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/ReentrantLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/ShareData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/SpinLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/SyncAndReentrantLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/lock/SynchronizedDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/queue/MyResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/queue/ProdConsumer_BlockQueueDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/queue/ProdConsumer_TraditionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/queue/ShareData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/thread/CallableDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/thread/DeadLockDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/thread/HoldThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/thread/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/thread/MyThread2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/thread/MyThreadPoolDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/volatileTest/MyData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/volatileTest/ResortSeq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/volatileTest/SingletonDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/volatileTest/VolatileDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559049634(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559219896(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559220033(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559224045(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559225752(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559229663(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559229721(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559370440(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/images/1559370703(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/pdf/JUC多线程及高并发.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/pdf/JVM.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/pdf/JVM面试.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/pdf/jvm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/01_html_css.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/18_html_css.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/01.CSS基本语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/02.标签名选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/03.ID选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/04.class类型选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/05.组合选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/06-css常用样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/1-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/2-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/css/3-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/0-标签语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/1.font标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/10.表单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/10.表单提交的细节.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/11.other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/2.特殊字符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/3.内联框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/3.标题标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/4.超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/5.img标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/6.表格标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/7.表格跨行跨列.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/8.iframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/html/9.列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/imgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/01_尚硅谷_html&amp;CSS_王振国 - 课堂笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/CSS2.0.chm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/contbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/footerbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/h3allabout.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/h3benefits.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/h3part.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/h3require.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/h3road.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/larchivesspan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/lresourcesspan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/lselectbttm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/lselectspan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/mainbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/prebg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css1/top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css2/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css2/basic.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/archives.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/benefits.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/bookmark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/bull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/cover_bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/cover_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/csszengarden.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/notes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/participation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/requirements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/resources.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/roadto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/sowhat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css3/thebeauty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/left-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/left-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/right-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/css4/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/sample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/html示例/sample.html.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/w3cschool.CHM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/代码提示激活字符.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/去掉换行之类的符号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/图片资源/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/基本效果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/浏览器/58.0.3029.110_chrome_installer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/浏览器/Firefox_50.0.0.6152_setup.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/css/01.CSS基本语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/css/02.标签名选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/css/03.ID选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/css/04.class类型选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/css/05.组合选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/css/06-css常用样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/0-标签语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/1.font标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/2.特殊字符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/3.内联框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/3.标题标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/4.超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/5.img标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/6.表格标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/7.表格跨行跨列.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/html/8.iframe标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/演示/imgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_html_css/笔记/项目实战：尚硅谷书城.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/01-hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/02-hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/02_JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/03-变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/04-关系运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/05-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/05.DOM查询练习/dom查询.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/05.DOM查询练习/style/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/06-数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/07-函数的第一种定义方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/08-函数的第二种定义方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/09-js不允许函数重载.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/10-隐形参数arguments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/11-Object形式的自定义对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/12-大括号形式的自定义对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/19_JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/createElement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/getElementById.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/getElementsByName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/getElementsByTagName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/regexp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/document/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/event/onblur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/event/onchange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/event/onclick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/event/onload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/event/onsubmit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/02_尚硅谷_JavaScript_王振国 - 课堂笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/java和js的关系.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/01-动态给页面上添加div.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/02-删除替换克隆标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/03-全选全不选反选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/04-新闻字体.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/05-表格增删.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/06-动态生成表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/07-表格隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/08-左到右右到左.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/09-二级联动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/10-注册页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/11-图片轮换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/cities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test/imgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/01-动态给页面上添加div.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/02-删除替换克隆标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/03-全选全不选反选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/04-新闻字体.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/05-表格增删.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/06-动态生成表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/07-表格隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/08-左到右右到左.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/09-二级联动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/10-注册页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/11-图片轮换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/cities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/test做好的/imgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/w3cschool菜鸟教程 新版本.chm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_JavaScript/笔记/常用正则表达式.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/19_jQuery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo01.入门/01.HelloWorld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo01.入门/02.$的本质.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo01.入门/03.核心函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo01.入门/04.DOM对象和jQuery对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/01.基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/02.层次选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/03.基本的过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/04.内容过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/05.可见性过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/06.属性过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/08.表单对象属性过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo02.选择器/09.元素筛选方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo03.DOM操作/2.dom属性操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo03.DOM操作/3.dom增删改.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo03.DOM操作/style/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo04.CSS样式操作/jqueryCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo04.CSS样式操作/jqueryCss___.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo04.CSS样式操作/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/01.文档加载/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/01.文档加载/load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/01.文档加载/load___.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/02.事件绑定/bind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/02.事件绑定/bind____.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/02.事件绑定/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/03.事件移除/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/03.事件移除/style/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/03.事件移除/style/css.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/03.事件移除/unbind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/03.事件移除/unbind___.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/04.事件冒泡/bubble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/04.事件冒泡/bubble___.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/04.事件冒泡/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/05.事件对象/eventObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/05.事件对象/eventObj__emp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo05.事件/05.事件对象/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo06.动画/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo06.动画/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo06.动画/动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/Demo06.动画/动画__.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/test3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习01 选择器练习01 隔行变色/ex_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习01 选择器练习01 隔行变色/ex_3_emp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习01 选择器练习01 隔行变色/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习02 选择器练习02 全选全不选/ex-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习02 选择器练习02 全选全不选/ex-4__.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/ex_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/ex_5_emp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/表单选择器练习_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/表单选择器练习_5__.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习04 DOM操作01 selected/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习04 DOM操作01 selected/selected.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习04 DOM操作01 selected/selected空白.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习04 DOM操作01 selected/从左到右，从右到左.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习04 DOM操作01 selected/从左到右，从右到左__.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/ex-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/ex-5___.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/styleB/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/添加删除记录-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/添加删除记录-5___.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/displaydcs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/displaydcs__.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/displaydcs空白.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/img/down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/img/up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习07 事件 图片跟随/img/big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习07 事件 图片跟随/img/small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习07 事件 图片跟随/imgFollow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习07 事件 图片跟随/imgFollow__.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习07 事件 图片跟随/imgFollow空白.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/Demo/练习/☆练习07 事件 图片跟随/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/笔记/04_尚硅谷_jQuery_王振国 - 课堂笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/笔记/jquery类库/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_jQuery/笔记/jquery类库/script/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/05_book_static.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/cart/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/cart/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/manager/book_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/manager/book_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/manager/manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/manager/order_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/order/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/user/login_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/user/regist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/pages/user/regist_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/static/img/code.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/static/img/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/static/img/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/static/img/pwd-icons-new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_book_static/static/script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/21_servlet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/src/com/atguigu/servlet/ContextServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/src/com/atguigu/servlet/ContextServlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/src/com/atguigu/servlet/ContextServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/src/com/atguigu/servlet/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/src/com/atguigu/servlet/HelloServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/src/com/atguigu/servlet/HelloServlet3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/web/css/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/web/imgs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/笔记/06_尚硅谷_Servlet_王振国 - 课堂笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/笔记/java_ee_api_中英文对照版.chm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/笔记/java_ee_api_中英文对照版.chw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/笔记/常见请求和响应头-说明.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_servlet/笔记/需要复习的内容.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/21_servlet/com/atguigu/servlet/ContextServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/21_servlet/com/atguigu/servlet/ContextServlet1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/21_servlet/com/atguigu/servlet/ContextServlet2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/21_servlet/com/atguigu/servlet/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/21_servlet/com/atguigu/servlet/HelloServlet2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/21_servlet/com/atguigu/servlet/HelloServlet3.class" afterDir="false" />
+    <list default="true" id="97dc2d92-a6fc-4f2b-becb-c137988c101d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_concurrent/src/main/java/com/leo/juc/threadlocal/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/threadlocal/ThreadLocalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/20_book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/OrderItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/impl/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/impl/OrderItemDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/filter/TransactionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/ClientBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/RegistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/java/com/atguigu/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/main/resources/sql/book.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/JdbcUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/OrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/OrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/test/java/com/leo/UserServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/cart/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/cart/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/client/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/common/manager_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/common/page_nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/error/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/error/error500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/manager/book_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/manager/book_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/manager/order_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/order/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/test/dzcp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/test/fzyp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/user/login_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/user/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/pages/user/regist_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/static/img/code.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/static/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/static/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/src/webapp/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/META-INF/20_book.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/OrderItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/impl/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/impl/OrderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/impl/OrderItemDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/filter/ManagerFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/filter/TransactionFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/utils/JdbcUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/utils/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/CartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/ClientBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/RegistServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/com/atguigu/web/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/classes/sql/book.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/BookDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/BookServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/CartTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/JdbcUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/OrderDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/OrderItemDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/OrderServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/UserDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_book/target/test-classes/com/leo/UserServletTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/20_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/21_servlet_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/21_servlet_war_exploded2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_boot_01_helloworld_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/java_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_API/01_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01_API/01_API.iml" afterDir="false" />
@@ -463,18 +160,35 @@
       <change beforePath="$PROJECT_DIR$/10_IO/10_IO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10_IO/10_IO.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11_Net/11_Net.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11_Net/11_Net.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_FunctionalInterface/12_FunctionalInterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12_FunctionalInterface/12_FunctionalInterface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo05/ObjectMethodReference/Demo01ObjectMethodReference(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo05/ObjectMethodReference/MethodRerObject(1)(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo05/ObjectMethodReference/MethodRerObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo05/ObjectMethodReference/MethodRerObject(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo05/ObjectMethodReference/Printable(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo06/StaticMethodReference/Calcable(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo06/StaticMethodReference/Demo01StaticMethodReference(1)(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo06/StaticMethodReference/Demo01StaticMethodReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo06/StaticMethodReference/Demo01StaticMethodReference(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo07/SuperMethodReference/Greetable(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo07/SuperMethodReference/Human(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo07/SuperMethodReference/Man(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo08/ThisMethodReference/Husband(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo08/ThisMethodReference/Richable(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo09/ConstructorMethodReference/Demo(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo09/ConstructorMethodReference/Person(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo09/ConstructorMethodReference/PersonBuilder(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo10/ArrayMethodReference/ArrayBuilder(1).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_StreamAndMethodReference/src/main/java/com/leo/demo10/ArrayMethodReference/Demo(1).java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/14_spring_annotation/14_spring_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_spring_annotation/14_spring_annotation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15_springmvc_annotation/15_springmvc_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/15_springmvc_annotation/15_springmvc_annotation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_design_pattern/16_design_pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/16_design_pattern/16_design_pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16_design_pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_design_pattern/src/main/java/com/leo/cglib/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/16_design_pattern/src/main/java/com/leo/cglib/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/17_concurrent/17_concurrent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/17_concurrent/17_concurrent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_concurrent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17_concurrent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_concurrent/src/main/java/com/leo/juc/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/17_concurrent/src/main/java/com/leo/juc/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/17_concurrent/target/classes/com/leo/juc/test/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_01_hello_world/springboot_01_hello_world.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_01_hello_world/springboot_01_hello_world.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_02_config_01/springboot_02_config_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_02_config_01/springboot_02_config_01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_02_config_02/springboot_02_config_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_02_config_02/springboot_02_config_02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_03_logging/springboot_03_logging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_03_logging/springboot_03_logging.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_04_web_jsp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_04_web_jsp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_04_web_jsp/springboot_04_web_jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_04_web_jsp/springboot_04_web_jsp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_04_web_restfulcrud/springboot_04_web_restfulcrud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_04_web_restfulcrud/springboot_04_web_restfulcrud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_06_data_jdbc/springboot_06_data_jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_06_data_jdbc/springboot_06_data_jdbc.iml" afterDir="false" />
@@ -512,6 +226,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -551,21 +272,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/20_book/web/WEB-INF/lib" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/20_xml/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/20_book/src/webapp/WEB-INF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31008482" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\java_study\20_book\src\webapp" />
       <recent name="D:\Git\java_study\20_xml\src\main\java" />
       <recent name="D:\Git\java_study\20_jQuery_01" />
       <recent name="D:\Git\java_study\20_jQuery_01\Demo" />
       <recent name="D:\Git\java_study\spring_annotation\src\test\java\com\leo" />
-      <recent name="D:\Git\java_study\spring_annotation\src\main\java\com\leo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.leo" />
@@ -575,11 +297,11 @@
       <recent name="com.leo.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git\java_study\20_xml\src\main\resources" />
-      <recent name="D:\Git\java_study\20_xml\src\main" />
-      <recent name="D:\Git\java_study\20_xml" />
-      <recent name="D:\Git\java_study\20_web\src" />
-      <recent name="D:\Git\java_study\21_servlet" />
+      <recent name="D:\Git\java_study\20_book\src\webapp\WEB-INF" />
+      <recent name="D:\Git\java_study\20_book\src" />
+      <recent name="D:\Git\java_study\20_book\src\main\resources" />
+      <recent name="D:\Git\java_study\20_book\src\main\java" />
+      <recent name="D:\Git\java_study\20_book_01\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,7 +311,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.20_web">
+  <component name="RunManager" selected="Tomcat Server.20_book">
     <configuration name="Client" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leo.cglib.Client" />
       <module name="16_design_pattern" />
@@ -618,10 +340,23 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.Test" />
-      <module name="20_web" />
+      <module name="20_book" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.leo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.juc.threadlocal.ThreadLocalTest" />
+      <module name="17_concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.juc.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -633,7 +368,7 @@
       <module name="14_spring_annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.leo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -894,18 +629,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="20_web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="20_book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/20_web/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
-        <artifact name="20_web:war exploded">
+        <artifact name="20_web:war exploded2">
           <settings>
             <option name="CONTEXT_PATH" value="/20_web" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_30_java_study_4" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_30_java_study" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -913,7 +648,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64856" />
+        <option name="DEBUG_PORT" value="53380" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -962,9 +697,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="20_web:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration name="21_servlet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:\Program Files\Java\jdk1.8.0_131\jre">
@@ -1036,9 +769,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="21_servlet:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration name="21_servlet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
@@ -1119,6 +850,7 @@
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ThreadLocalTest" />
       <item itemvalue="JUnit.IOCTest_LifeCycle.test01" />
       <item itemvalue="Spring Boot.GirlApplication" />
       <item itemvalue="Spring Boot.HelloWorldMainApplication" />
@@ -1149,10 +881,11 @@
       <item itemvalue="Spring Boot.SpringBoot08StarterTestApplication" />
       <item itemvalue="Spring Boot.Springboot01HelloWorldApplication" />
       <item itemvalue="Tomcat Server.21_servlet" />
-      <item itemvalue="Tomcat Server.20_web" />
+      <item itemvalue="Tomcat Server.20_book" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.IOCTest_LifeCycle.test01" />
         <item itemvalue="Spring Boot.Springboot01HelloWorldApplication" />
@@ -1163,11 +896,21 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.08907823" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -1225,7 +968,9 @@
       <workItem from="1584408983473" duration="753000" />
       <workItem from="1584409938102" duration="1446000" />
       <workItem from="1584412608926" duration="215000" />
-      <workItem from="1584412868979" duration="31937000" />
+      <workItem from="1584412868979" duration="32229000" />
+      <workItem from="1584581260958" duration="8062000" />
+      <workItem from="1584593518463" duration="6880000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1583756988614</created>
@@ -1290,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584349343150</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add html javascript jquery project">
+      <created>1584538022538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584538022538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1322,7 +1074,8 @@
     <MESSAGE value="add second springboot project" />
     <MESSAGE value="add spring project" />
     <MESSAGE value="add design pattern and concurrent project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add design pattern and concurrent project" />
+    <MESSAGE value="add html javascript jquery project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add html javascript jquery project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="18" key="#Demo01ToString" timestamp="1584071021952">
@@ -1337,10 +1090,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="220" y="20" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1584519650181" />
-    <state x="272" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584523486479">
+    <state x="272" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584587439947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="272" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584523486479" />
+    <state x="272" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584587439947" />
     <state x="396" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583586218875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1373,10 +1126,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584260779554" />
-    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584537719512">
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2" timestamp="1584538012882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584537719512" />
+    <state x="68" y="0" width="1068" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584538012882" />
     <state width="365" height="466" key="DebuggerActiveHint" timestamp="1584267491046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1385,42 +1138,74 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1584088719967" />
-    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1584522897752">
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1584587884863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584522897752" />
-    <state width="1320" height="2" key="GridCell.Tab.0.bottom" timestamp="1584524032860">
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584587884863" />
+    <state width="1175" height="499" key="GridCell.Tab.0.bottom" timestamp="1584599345915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584524032860" />
-    <state width="1320" height="2" key="GridCell.Tab.0.center" timestamp="1584524032860">
+    <state width="1175" height="499" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584599345915" />
+    <state width="1175" height="499" key="GridCell.Tab.0.center" timestamp="1584599345915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584524032860" />
-    <state width="1320" height="2" key="GridCell.Tab.0.left" timestamp="1584524032858">
+    <state width="1175" height="499" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584599345915" />
+    <state width="1175" height="499" key="GridCell.Tab.0.left" timestamp="1584599345915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584524032858" />
-    <state width="1320" height="2" key="GridCell.Tab.0.right" timestamp="1584524032860">
+    <state width="1175" height="499" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584599345915" />
+    <state width="1175" height="499" key="GridCell.Tab.0.right" timestamp="1584599345915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584524032860" />
-    <state width="1320" height="121" key="GridCell.Tab.1.bottom" timestamp="1584283114149">
+    <state width="1175" height="499" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584599345915" />
+    <state width="1175" height="499" key="GridCell.Tab.1.bottom" timestamp="1584599345916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584283114149" />
-    <state width="1320" height="121" key="GridCell.Tab.1.center" timestamp="1584283114148">
+    <state width="1175" height="499" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584599345916" />
+    <state width="1175" height="499" key="GridCell.Tab.1.center" timestamp="1584599345916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584283114148" />
-    <state width="1320" height="121" key="GridCell.Tab.1.left" timestamp="1584283114148">
+    <state width="1175" height="499" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584599345916" />
+    <state width="1175" height="499" key="GridCell.Tab.1.left" timestamp="1584599345916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584283114148" />
-    <state width="1320" height="121" key="GridCell.Tab.1.right" timestamp="1584283114149">
+    <state width="1175" height="499" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584599345916" />
+    <state width="1175" height="499" key="GridCell.Tab.1.right" timestamp="1584599345916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="121" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584283114149" />
+    <state width="1175" height="499" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584599345916" />
+    <state width="1175" height="499" key="GridCell.Tab.2.bottom" timestamp="1584599345917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584599345917" />
+    <state width="1175" height="499" key="GridCell.Tab.2.center" timestamp="1584599345917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584599345917" />
+    <state width="1175" height="499" key="GridCell.Tab.2.left" timestamp="1584599345916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584599345916" />
+    <state width="1175" height="499" key="GridCell.Tab.2.right" timestamp="1584599345917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584599345917" />
+    <state width="1175" height="499" key="GridCell.Tab.3.bottom" timestamp="1584599345918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584599345918" />
+    <state width="1175" height="499" key="GridCell.Tab.3.center" timestamp="1584599345917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1584599345917" />
+    <state width="1175" height="499" key="GridCell.Tab.3.left" timestamp="1584599345917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1584599345917" />
+    <state width="1175" height="499" key="GridCell.Tab.3.right" timestamp="1584599345917">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1175" height="499" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1584599345917" />
     <state x="212" y="17" key="Maven.ArtifactSearchDialog" timestamp="1584094464135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1437,26 +1222,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="423" y="72" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584085032904" />
-    <state x="-4" y="0" width="1267" height="728" key="SettingsEditor" timestamp="1584522910636">
+    <state x="-4" y="0" width="1267" height="728" key="SettingsEditor" timestamp="1584596672328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-4" y="0" width="1267" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584522910636" />
+    <state x="-4" y="0" width="1267" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584596672328" />
     <state x="404" y="94" width="582" height="524" key="StructurePopup" timestamp="1582867345795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="94" width="582" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1582867345795" />
-    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1584349389250">
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2" timestamp="1584538050431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584349389250" />
+    <state x="274" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584538050431" />
     <state x="481" y="139" key="chooseDestDirectoryDialog" timestamp="1584104162803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="139" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1584104162803" />
-    <state x="362" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584412965328">
+    <state x="362" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584593518483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="362" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584412965328" />
+    <state x="362" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584593518483" />
     <state x="380" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584523610555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1469,10 +1254,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="377" y="153" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584086868596" />
-    <state x="105" y="0" key="new project wizard" timestamp="1584523855532">
+    <state x="105" y="0" key="new project wizard" timestamp="1584590721766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="105" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584523855532" />
+    <state x="105" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584590721766" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584280999477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1497,7 +1282,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/20_web/src/com/atguigu/test/Test.java</url>
+          <url>file://$PROJECT_DIR$/20_book/src/com/atguigu/test/Test.java</url>
           <line>6</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>

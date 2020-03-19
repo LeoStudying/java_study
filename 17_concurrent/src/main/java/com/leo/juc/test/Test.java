@@ -2,7 +2,8 @@ package com.leo.juc.test;
 
 import java.util.Random;
 
-public class Test {
+public class
+Test {
     public static void main(String[] args) {
 //        Runtime runtime = Runtime.getRuntime();
 //        System.out.println(runtime.availableProcessors());//线程数

@@ -35,7 +35,7 @@
         <module>15_springmvc_annotation</module>
         <module>16_design_pattern</module>
         <module>17_concurrent</module>
-        <module>20_xml</module>
+        <module>20_book_01</module>
     </modules>
 
     <properties>
@@ -83,30 +83,14 @@
             <!-- optional=true,依赖不会传递，该项目依赖devtools；之后依赖myboot项目的项目如果想要使用devtools，需要重新引入 -->
             <optional>true</optional>
         </dependency>
-        <!--引入其他的Servlet容器-->
-        <!--<dependency>
-            <artifactId>spring-boot-starter-undertow</artifactId>
-            <groupId>org.springframework.boot</groupId>
-        </dependency>-->
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!--引入jquery-webjar-->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>jquery</artifactId>
-            <version>3.3.1</version>
-        </dependency>
 
-        <!--引入bootstrap-->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>bootstrap</artifactId>
-            <version>4.0.0</version>
-        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
